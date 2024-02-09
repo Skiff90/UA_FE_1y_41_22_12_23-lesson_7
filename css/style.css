@@ -1,0 +1,11 @@
+a {
+  background-color: brown;
+  color: blueviolet;
+}
+.from-file {
+  color: chartreuse;
+}
+ul.list > li.list-item {
+  color: cornflowerblue;
+  background-color: goldenrod;
+}
