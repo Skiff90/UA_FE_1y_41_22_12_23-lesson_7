@@ -1,11 +1,47 @@
+:root {
+  --brand-color: #bc32ce;
+  --base-size: 16px;
+}
+
+body {
+  color: var(--brand-color, orange);
+  font-size: var(--base-size, 14px);
+}
+
+.alert {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.success {
+  color: green;
+}
+
+.warning {
+  color: #1e093c;
+}
+
+.error {
+  color: red;
+}
+
+#title {
+  font-weight: 500;
+  color: orange;
+}
 a {
-  background-color: brown;
-  color: blueviolet;
+  color: rgba(255, 0, 0, 30%);
+  text-decoration: none;
 }
-.from-file {
-  color: chartreuse;
+.social-links a {
+  --link-color: rgb(149, 149, 76);
+  color: var(--link-color, red);
+  text-decoration: none;
 }
-ul.list > li.list-item {
-  color: cornflowerblue;
-  background-color: goldenrod;
+
+.menu > li {
+  border: 1px solid tomato;
+}
+a[title] {
+  color: teal;
 }
